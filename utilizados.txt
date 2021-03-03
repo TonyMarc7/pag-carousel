@@ -1,0 +1,4 @@
+
+- glider.js: forma del carousel
+
+- font-awesome: letras y texto

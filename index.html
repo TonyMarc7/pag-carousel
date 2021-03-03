@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Carousel Glider.js</title>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&display=swap" rel="stylesheet"> 
+	<link href="https://cdn.jsdelivr.net/npm/normalize.css@8.0.1/normalize.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
+	<link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+	<div class="contenedor">
+		<main class="contenido1">
+			<img src="img/1.png" alt="Mirror of the Tower Bundestag" class="contenido1_imagen">
+			<div class="contenido1_contenedor">
+				<h1 class="contenido1_titulo">El Gran Oscurecer del Reflejo</h1>
+				<p class="contenido1_resumen">
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a commodo orci. Nulla ipsum ante, auctor a odio id, bibendum accumsan mauris.
+				</p>
+				<p class="contenido1_resumen">
+					Fusce malesuada mollis ante, at elementum mi maximus nec. Praesent volutpat, tortor sed condimentum sagittis, mi diam fringilla nibh.
+				</p>
+			</div>
+		</main>
+		<div class="carousel">
+			<div class="carousel_contenedor">
+				<button aria-label="Anterior" class="carousel_anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel_list">
+					<div class="carousel_elem">
+						<img src="img/2.png" alt="Rock"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/3.png" alt="Water"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/4.png" alt="Leaf"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/5.png" alt="Punch"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/6.png" alt="Venom"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/7.png" alt="Energy"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/8.png" alt="Earth"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/9.png" alt="Fire"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+					<div class="carousel_elem">
+						<img src="img/1.png" alt="Wind"/>
+						<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, quos</p>
+					</div>
+				</div>
+
+				<button aria-label="Siguiente" class="carousel_siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel_indicador"></div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+	<script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="app.js"></script>
+</body>
+</html>
